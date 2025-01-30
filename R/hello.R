@@ -15,18 +15,14 @@
 
 
 suma_y_resta <- function(a,b) {
-  # Pedir al usuario que ingrese dos números
-  a <- as.numeric(readline(prompt = "Ingresa el primer número: "))
-  b <- as.numeric(readline(prompt = "Ingresa el segundo número: "))
-
-  # Calcular la suma y la resta
-  suma <- a + b
-  resta <- a - b
-
-  # Imprimir los resultados
-  cat("La suma de", a, "y", b, "es:", suma, "\n")
-  cat("La resta de", a, "y", b, "es:", resta, "\n")
+c= a+b
+print(c)
 }
-
-# Llamar a la función
-suma_y_resta()
+resta <- function(d,e) {
+  f=d-e
+  print(d)
+}
+pon1 <- function(m,n){
+  l= m^n
+  print(l)
+}
