@@ -14,7 +14,7 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 
-suma_y_resta <- function() {
+suma_y_resta <- function(a,b) {
   # Pedir al usuario que ingrese dos números
   a <- as.numeric(readline(prompt = "Ingresa el primer número: "))
   b <- as.numeric(readline(prompt = "Ingresa el segundo número: "))
